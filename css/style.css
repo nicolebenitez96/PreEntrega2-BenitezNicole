@@ -215,7 +215,6 @@ body{
 
 .grilla-tienda-prod{
     padding: 15px; 
-    border: 1px solid black;
 }
 
 .grilla-tienda-prod img{
@@ -230,12 +229,37 @@ body{
     text-align: center;
 }
 
+.grilla-tienda-prod-body p{
+    font-size: 14px;
+}
+
+.titulo-producto{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color:black;
+}
+
 .tienda-buscador{
     display: flex;
     height: 50px;
     align-items: center;
     justify-content: flex-end;
     padding-right: 25px;
+}
+
+.grilla-tienda-filtros{
+    border: 1px solid black;
+    justify-content: center;
+    padding: 10px;
+}
+
+.grilla-tienda-filtros ul{
+    list-style: none;
+}
+
+.grilla-tienda-filtros a{
+    color: black;
 }
 
 .tienda-final{
@@ -439,7 +463,7 @@ body{
     text-align: center;
 }
 
-#form-registro{ /*TENGO QUE ARREGLAR ESTO PARA QUE SE CENTRE Y VER EL TEMA DEL DISPLAY PARA QUE APAREZCA Y DESAPAREZCA*/
+#form-registro{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -457,7 +481,7 @@ body{
     height: 300px;
 }
 
-/*Activa y desactiva según la opción elegida*/
+/*Activa y desactiva los forms de Registro/Iniciar sesión según la opción elegida*/
 #form-registro{
     display:none;
     background: #f7f6f6;
