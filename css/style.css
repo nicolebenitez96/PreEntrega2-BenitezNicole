@@ -15,8 +15,11 @@ body{
     height: 40px;
 }
 
+.nav{
+    gap: 75px;
+}
+
 .nav-item{
-    margin-right: 45px;
     border-radius: 50px;
 }
 
@@ -102,7 +105,7 @@ body{
     background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 50px;
 }
 
@@ -112,7 +115,8 @@ body{
 }
 
 .main5-form{
-    margin-left: 100px;
+    margin-left: 0px;
+    width: 50%;
 }
 
 .newsletter-boton{
@@ -563,6 +567,15 @@ body{
 
     /*Nav*/
 
+    .container{
+        flex-direction: column;
+    }
+
+    .nav{
+        flex-direction: column;
+        gap: 2px;
+    }
+
     /*Main-Index*/
     .main1{
         flex-direction: column;
@@ -585,10 +598,41 @@ body{
         height: 100%;
     }
 
+    .main3{
+        flex-direction: column;
+        gap: 25px;
+        height: 100%;
+        padding: 25px;
+    }
+
+    .main5{
+        height: 100%;
+        flex-direction: column;
+        gap: 25px;
+        padding: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main5-form{
+        width: 100%;
+    }
+
+    .main5-form p{
+        text-align: justify;
+    }
+
+
     /*Main-Sobre Antologia*/
 
 
     /*Footer*/
+    .footer-nav{
+        display: block;
+        height: 100%;
+        text-align: center;
+    }
+
 
 }
 
@@ -596,6 +640,14 @@ body{
 @media screen and (min-width: 600px) and (max-width: 1023px){
 
     /*Nav*/ 
+    .container{
+        flex-direction: column;
+    }
+
+    .nav{
+       
+        gap: 2px;
+    }
 
     /*Main-Index*/
     .main1{
@@ -611,6 +663,7 @@ body{
     .main2-opc{
         height: 100%;
     }
+
 
     /*Main-Sobre Antologia*/
     /*Footer*/
