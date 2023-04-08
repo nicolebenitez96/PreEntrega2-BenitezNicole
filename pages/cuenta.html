@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container text-center">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../multimedia/Antologia-logo.png" alt="logo">
+                </a>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/sobre-antologia.html">Sobre Antología</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/tienda.html">Tienda</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <a class="navbar-icon" href="../pages/cuenta.html">
+                    <img src="../multimedia/icono-cuenta.png" alt="cuenta">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cuenta1">
+            <div class="cuenta1-texto">
+                <h3 class="cuenta1-titulo">Titutlo</h3>
+                <p class="cuenta1-parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias pariatur incidunt id nobis quis atque laboriosam veritatis, tempora odit? Temporibus!</p>
+                <a href=#form-registro class="main1-btn">Registrarse</a>
+                <a href=#form-iniciarsesion class="main1-btn">Iniciar sesión</a>
+            </div>
+            <img class="cuenta1-imagen" src="../multimedia/imagen-vela1.jpg" alt="imagen vela">
+        </section>
+
+        <!--TENGO QUE ARREGLAR ESTO PARA QUE SE CENTRE Y VER EL TEMA DEL DISPLAY PARA QUE APAREZCA Y DESAPAREZCA-->
+
+        <section id="form-registro">
+                <p class="titulo-registro">Completa el formulario para registrarte</p>
+                <div class="form-registro-1">
+                    <div>
+                        <label for="usuario"></label>
+                        <input type="text" name="usuario" placeholder="Usuario" size="46">
+                    </div>
+                    <div>    
+                        <label for="nombre"></label>
+                        <input type="text" name="nombre" placeholder="Nombre" size="20">
+
+                        <label for="apellido"></label>
+                        <input type="text" name="apellido" placeholder="Apellido" size="20">
+                    </div>
+                    <div>
+                        <label for="pais"></label>
+                        <input type="text" name="pais" placeholder="País" size="20">
+
+                        <label for="provincia"></label>
+                        <input type="text" name="provincia" placeholder="Provincia/estado" size="20"> 
+                    </div>
+                    <div>
+                        <label for="codarea"></label>
+                        <input type="codarea" name="codarea" placeholder="Cód. Área" size="20">
+
+                        <label for="celular"></label>
+                        <input type="tel" name="celular" placeholder="Celular" size="20">
+                    </div>
+                </div>
+
+                <div class="form-registro-2">
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="Email" size="46">
+                    </div>
+                    <div>
+                        <label for="verifemail"></label>
+                        <input type="email" name="verifemail" placeholder="Confirmar email" size="46">
+                    <div>
+                        <label for="contraseña"></label>
+                        <input type="password" name="contraseña" placeholder="Contraseña" size="20">
+
+                        <label for="repcontraseña"></label>
+                        <input type="password" name="repcontraseña" placeholder="Repetir contraseña" size="20">
+                    </div>
+                    <div>
+                        <button class="main1-btn" type="submit">Registrarse</button>
+                        <a href="#"><button class="main1-btn" type="submit">Cancelar</button></a>
+                    </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="form-iniciarsesion">
+            <p class="titulo-registro">Completa los datos para iniciar sesión</p>
+            <div class="iniciar-sesion">
+                <div>
+                    <label for="usuario"></label>
+                    <input type="text" name="usuario" placeholder="Usuario" size="20">
+                </div>
+                <div>
+                    <label for="contraseña"></label>
+                    <input type="password" name="contraseña" placeholder="Contraseña" size="20">
+                </div>
+            </div>
+            <div class="botones">
+                <a href=#sesion-iniciada><button class="main1-btn" type="submit">Inicio sesión</button></a>
+                <a href="#"><button class="main1-btn" type="submit">Cancelar</button></a>
+            </div>
+        </div>
+    
+        <div id="sesion-iniciada">
+            <p class="titulo-registro">Sesión iniciada exitosamente</p>
+            <a href="../index.html#header-index"><button class="main1-btn" type="submit">Ir al inicio</button></a>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav class="footer-navbar">
+            <ul class="footer-nav">
+                <li class="footer-nav-li">
+                    <a href="../pages/sobre-antologia.html">Sobre Antología</a>
+                </li>
+
+                <li class="footer-nav-li">
+                    <a href="../pages/tienda.html">Tienda</a>
+                </li>
+
+                <li class="footer-nav-li">
+                    <a href="../pages/blog.html">Blog</a>
+                </li>
+
+                <li class="footer-nav-li">
+                    <a href="../pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+            <p>Segunda pre-entrega por Nicole Benítez</p>
+        </nav>
+    </footer>
+
+    <!--Script Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

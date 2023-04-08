@@ -1,0 +1,531 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #f7f6f6;
+}
+
+/*Header*/
+.navbar-icon img{
+    width: 50px;
+    height: 40px;
+}
+
+.nav-item{
+    margin-right: 45px;
+    border-radius: 50px;
+}
+
+.nav-item a{
+    color: black;
+}
+
+.nav-item:hover{
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+}
+
+/*Header end*/
+
+/*Main*/
+
+/*Index main*/
+.main1{
+    display:flex;
+    flex-wrap: wrap;
+    height: 380px;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.main1-texto{
+    text-align: center;
+}
+
+.main1 img{
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.main2{
+    display:flex;
+    flex-wrap: wrap;
+    height: 380px;
+    background-color: #f7f6f6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main2-opc{
+    width: 200px;
+    height: 200px;
+}
+
+.main2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.main2-opc-body{
+    text-align: center;
+}
+
+.main3{
+    display: flex;
+    height: 380px;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.main3-texto{
+    text-align: center;
+}
+
+.main4{
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main5{
+    height: 200px;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main5-boton{
+    font-size: 20px;
+    color: black;
+}
+
+.main5-form{
+    margin-left: 100px;
+}
+
+.newsletter-boton{
+    color:black;
+    border-radius: 5px;
+    background-color: #f7f6f6;
+    text-decoration: none;
+}
+
+.newsletter-boton:hover{
+    border: 1px solid black;
+}
+
+/*Index main end*/
+
+
+/*Sobre-antologia main*/
+.sobre1{
+    height: 380px;
+    display: flex;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sobre1-imagen{
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.sobre1-texto{
+    width: 50%;
+    text-align: center;
+}
+
+.sobre2{
+    height: 380px;
+    display: flex;
+    background-color: #f7f6f6;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sobre2-imagen{
+    width: 25%;
+    height: 300px;
+}
+
+.sobre2-texto{
+    width: 50%;
+}
+
+.sobre3{
+    height: 300px;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Sobre-antologia main end*/
+
+
+
+/*Tienda main*/
+.tienda-seccion1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+}
+
+.tienda-seccion1-body{
+    padding-right: 50px;
+    text-align: center;
+}
+
+.tienda-seccion1-imagen{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: flex-end;
+}
+
+.grilla-tienda{
+    padding-right: 25px;
+    padding-bottom: 25px;
+    display:grid;
+    grid-template-columns: 1fr, 25% 25% 25%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: 
+    'area0 area1 area2 area3'
+    'area0 area4 area5 area6';
+    gap: 10px;
+}
+
+.grilla-tienda-prod{
+    padding: 15px; 
+    border: 1px solid black;
+}
+
+.grilla-tienda-prod img{
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.grilla-tienda-prod-body{
+    text-align: center;
+}
+
+.tienda-buscador{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.tienda-final{
+    height: 50px;
+}
+
+.tienda-vermas{
+    display: flex;
+}
+
+.tienda-vermas a{
+    align-self: flex-end;
+}
+
+
+/*Asignación de grid area*/
+.a1{
+    grid-area: area0;
+}
+
+.p1{
+    grid-area: area1;
+}
+
+.p2{
+    grid-area: area2;
+}
+
+.p3{
+    grid-area: area3;
+}
+
+.p4{
+    grid-area: area4;
+}
+
+.p5{
+    grid-area: area5;
+}
+
+.p6{
+    grid-area: area6;
+}
+
+/*Tienda main end*/
+
+
+/*Blog main*/
+
+.blog1{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+    gap: 50px;
+}
+
+.blog1-imagen{
+    width: 25%;
+    height: 300px;
+}
+
+.blog1-texto{
+    width: 50%;
+    text-align: center;
+}
+
+.blog2{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f6f6;
+    gap: 50px;
+}
+
+.blog2-imagen{
+    width: 30%;
+    height: 300px;
+}
+
+.blog2-texto{
+    width: 50%;
+    text-align: center;
+}
+
+.blog3{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+    gap: 50px;
+}
+
+.blog3-imagen{
+    width: 25;
+    height: 300px;
+}
+
+.blog3-texto{
+    width: 50%;
+    text-align: center;
+}
+
+.blog4{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f6f6;
+    gap: 50px;
+}
+
+.blog4-imagen{
+    width: 30%;
+    height: 300px;
+}
+
+.blog4-texto{
+    width: 50%;
+    text-align: center;
+}
+
+.blog-vermas{
+    height: 50px;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-vermas a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Blog main end*/
+
+
+
+/*Contacto main*/
+.contacto1{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+    gap: 50px;
+}
+
+.contacto1-imagen{
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contacto1-texto{
+    width: 50%;
+    text-align: center;
+}
+
+.contacto2{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto2-mapa{
+    width: 50%;
+    text-align: center;
+}
+
+.contacto2-form{
+    width: 50%;
+    text-align: center;
+}
+
+/*Contacto main end*/
+
+
+
+/*Cuenta main*/
+.cuenta1{
+    height: 380px;
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuenta1-imagen{
+    width: 25%;
+    height: 300px;
+}
+
+.cuenta1-texto{
+    width: 50%;
+    text-align: center;
+}
+
+#form-registro{ /*TENGO QUE ARREGLAR ESTO PARA QUE SE CENTRE Y VER EL TEMA DEL DISPLAY PARA QUE APAREZCA Y DESAPAREZCA*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.titulo-registro{
+    display: inline-block;
+}
+
+#form-iniciarsesion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+/*Activa y desactiva según la opción elegida*/
+#form-registro{
+    display:none;
+    background: #f7f6f6;
+}
+
+#form-registro:target{
+    display:flex;
+}
+
+#form-iniciarsesion{
+    display:none;
+    background:#f7f6f6;
+    height: 200px;
+}
+
+#form-iniciarsesion:target{
+    display:flex;
+}
+
+#sesion-iniciada button{
+    position:relative;
+    left: 675px;
+    top:15px;
+}
+
+#sesion-iniciada{
+    display:none;
+    background: #f7f6f6;
+    height: 125px;
+}
+
+#sesion-iniciada:target{
+    display:flex;
+}
+
+/*Cuenta main end*/
+
+
+
+/*Main end*/
+
+/*Footer*/
+.footer-nav{
+    display:flex;
+    align-items: center;
+    height: 20px;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.footer-nav li{
+    list-style: none;
+}
+
+.footer-nav a{
+    color:black;
+    text-decoration: none;
+}
+
+.footer-navbar{
+    background-color: #f7f6f6;
+}
+
+.footer-navbar p{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Footer end*/
