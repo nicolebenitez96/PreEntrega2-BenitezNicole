@@ -292,10 +292,12 @@ body{
     border: 1px solid black;
     justify-content: center;
     padding: 10px;
+    margin-left: 10px;
 }
 
 .grilla-tienda-filtros ul{
     list-style: none;
+    padding-left: 0;
 }
 
 .grilla-tienda-filtros a{
