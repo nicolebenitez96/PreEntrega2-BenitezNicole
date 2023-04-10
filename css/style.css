@@ -414,6 +414,13 @@ body{
     text-align: center;
 }
 
+.blog2-texto a{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
 .blog3{
     height: 380px;
     display: flex;
@@ -433,6 +440,13 @@ body{
     text-align: center;
 }
 
+.blog3-texto a{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
 .blog4{
     height: 380px;
     display: flex;
@@ -450,6 +464,13 @@ body{
 .blog4-texto{
     width: 50%;
     text-align: center;
+}
+
+.blog4-texto a{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
 }
 
 .blog-vermas{
