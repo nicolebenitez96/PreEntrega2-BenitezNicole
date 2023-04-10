@@ -675,6 +675,10 @@ body{
         text-align: justify;
     }
 
+    .newsletter{
+        flex-direction: column;
+    }
+
 
     /*Main-Sobre Antologia*/
 
@@ -742,6 +746,11 @@ body{
 
     .main3{
         gap:50px;
+    }
+
+    .newsletter{
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     /*Main-Sobre Antologia*/
