@@ -186,6 +186,7 @@ body{
     width: 300px;
     max-height: 300px;
     object-fit: cover;
+    object-position: 15% 100%;
 }
 
 .sobre1-texto{
