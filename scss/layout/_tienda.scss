@@ -1,0 +1,138 @@
+/*Tienda main*/
+.tienda-seccion1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    background-image: $background-gradient;
+}
+
+.tienda-seccion1-body{
+    padding-right: 50px;
+    text-align: center;
+}
+
+.tienda-seccion1-imagen{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: flex-end;
+}
+
+.grilla-tienda{
+    padding-right: 25px;
+    padding-bottom: 25px;
+    display:grid;
+    grid-template-columns: 1fr, 25% 25% 25%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: 
+    'area0 area1 area2 area3'
+    'area0 area4 area5 area6';
+    gap: 10px;
+}
+
+.grilla-tienda-prod{
+    padding: 15px; 
+}
+
+.grilla-tienda-prod img{
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.grilla-tienda-prod-body{
+    text-align: center;
+}
+
+.grilla-tienda-prod-body p{
+    font-size: 14px;
+}
+
+.titulo-producto{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color:black;
+}
+
+.tienda-buscador{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.grilla-tienda-filtros{
+    border: 1px solid black;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.grilla-tienda-filtros ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.grilla-tienda-filtros a{
+    color: black;
+}
+
+.tienda-vermas{
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.tienda-vermas a{
+    border-radius: 15px;
+    border: 1px solid black;
+    color: black;
+    background-color: #f7f6f6;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+}
+
+.tienda-vermas a:hover{
+    background-image: $background-gradient;
+}
+
+
+/*Asignación de grid area*/
+.a1{
+    grid-area: area0;
+}
+
+.p1{
+    grid-area: area1;
+}
+
+.p2{
+    grid-area: area2;
+}
+
+.p3{
+    grid-area: area3;
+}
+
+.p4{
+    grid-area: area4;
+}
+
+.p5{
+    grid-area: area5;
+}
+
+.p6{
+    grid-area: area6;
+}
+
+/*Tienda main end*/

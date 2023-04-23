@@ -1,0 +1,61 @@
+/*Sobre-antologia main*/
+.sobre1{
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    background-image: $background-gradient;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sobre1-imagen{
+    width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: 15% 100%;
+}
+
+.sobre1-texto{
+    width: 50%;
+    text-align: center;
+}
+
+.sobre2{
+    height: 100%;
+    display: flex;
+    background-color: #f7f6f6;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px;
+}
+
+.sobre2-imagen{
+    width: 25%;
+    max-height: 300px;
+}
+
+.sobre2-texto{
+    width: 50%;
+    text-align: justify;
+}
+
+.sobre3{
+    height: 300px;
+    background-image: $background-gradient;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.carousel-inner{
+    padding: 50px;
+}
+
+.carousel-caption{
+    align-items: flex-end;
+}
+
+/*Sobre-antologia main end*/

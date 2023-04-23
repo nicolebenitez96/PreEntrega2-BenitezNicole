@@ -5,11 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100%;
-  background-color: #f7f6f6;
-}
-
 /*Header*/
 .navbar {
   padding: 25px;
@@ -37,7 +32,174 @@ body {
 }
 
 /*Header end*/
-/*Main*/
+/*Footer*/
+.footer-nav {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 20px;
+}
+
+.footer-navbar ul {
+  padding-left: 0;
+}
+
+.footer-nav li {
+  list-style: none;
+}
+
+.footer-nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-navbar {
+  background-color: #f7f6f6;
+}
+
+.footer-navbar p {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Footer end*/
+/*Media queries*/
+/*Mobile*/
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  /*Nav*/
+  .container {
+    flex-direction: column;
+  }
+  .nav {
+    flex-direction: column;
+    gap: 2px;
+  }
+  /*Main-Index*/
+  .main1 {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .main1-imagen {
+    width: 90%;
+    height: 100%;
+  }
+  .main2 {
+    flex-direction: column;
+    gap: 50px;
+    padding: 25px;
+    height: 100%;
+  }
+  .main2-opc {
+    height: 100%;
+  }
+  .main3 {
+    flex-direction: column;
+    gap: 25px;
+    height: 100%;
+    padding: 25px;
+  }
+  .main5 {
+    height: 100%;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+  .main5-form {
+    width: 100%;
+  }
+  .main5-form p {
+    text-align: justify;
+  }
+  .newsletter {
+    flex-direction: column;
+  }
+  /*Main-Sobre Antologia*/
+  .sobre1 {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .sobre1-imagen {
+    width: 90%;
+    height: 100%;
+  }
+  .sobre2 {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .sobre2-imagen {
+    width: 90%;
+    height: 100%;
+  }
+  .sobre2-texto {
+    width: 100%;
+  }
+  /*Footer*/
+  .footer-nav {
+    display: block;
+    height: 100%;
+    text-align: center;
+  }
+}
+/*Tablet*/
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  /*Nav*/
+  .nav {
+    gap: 2px;
+  }
+  .navbar-icon {
+    text-align: left;
+  }
+  /*Main-Index*/
+  .main1 {
+    gap: 50px;
+  }
+  .main2 {
+    gap: 50px;
+    padding: 25px;
+    height: 100%;
+  }
+  .main2-opc {
+    height: 100%;
+  }
+  .main3 {
+    gap: 50px;
+  }
+  .newsletter {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /*Main-Sobre Antologia*/
+  .sobre1 {
+    gap: 50px;
+  }
+  .sobre2 {
+    flex-direction: column;
+  }
+  .sobre2-imagen {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sobre2-texto {
+    width: 100%;
+  }
+  /*Footer*/
+}
+/*Desktop*/
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+  /*Nav*/
+  /*Main-Index*/
+  .main1 {
+    gap: 50px;
+  }
+  /*Main-Sobre Antologia*/
+  /*Footer*/
+}
 /*Index main*/
 .main1 {
   display: flex;
@@ -658,174 +820,9 @@ body {
 }
 
 /*Cuenta main end*/
-/*Main end*/
-/*Footer*/
-.footer-nav {
-  display: flex;
-  align-items: center;
-  height: 20px;
-  justify-content: center;
-  gap: 50px;
-  padding-top: 20px;
-}
-
-.footer-navbar ul {
-  padding-left: 0;
-}
-
-.footer-nav li {
-  list-style: none;
-}
-
-.footer-nav a {
-  color: black;
-  text-decoration: none;
-}
-
-.footer-navbar {
+body {
+  width: 100%;
   background-color: #f7f6f6;
-}
-
-.footer-navbar p {
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-}
-
-/*Footer end*/
-/*Media queries*/
-/*Mobile*/
-@media screen and (min-width: 320px) and (max-width: 599px) {
-  /*Nav*/
-  .container {
-    flex-direction: column;
-  }
-  .nav {
-    flex-direction: column;
-    gap: 2px;
-  }
-  /*Main-Index*/
-  .main1 {
-    flex-direction: column;
-    gap: 25px;
-  }
-  .main1-imagen {
-    width: 90%;
-    height: 100%;
-  }
-  .main2 {
-    flex-direction: column;
-    gap: 50px;
-    padding: 25px;
-    height: 100%;
-  }
-  .main2-opc {
-    height: 100%;
-  }
-  .main3 {
-    flex-direction: column;
-    gap: 25px;
-    height: 100%;
-    padding: 25px;
-  }
-  .main5 {
-    height: 100%;
-    flex-direction: column;
-    gap: 25px;
-    padding: 25px;
-    align-items: center;
-    justify-content: center;
-  }
-  .main5-form {
-    width: 100%;
-  }
-  .main5-form p {
-    text-align: justify;
-  }
-  .newsletter {
-    flex-direction: column;
-  }
-  /*Main-Sobre Antologia*/
-  .sobre1 {
-    flex-direction: column;
-    gap: 25px;
-  }
-  .sobre1-imagen {
-    width: 90%;
-    height: 100%;
-  }
-  .sobre2 {
-    flex-direction: column;
-    gap: 25px;
-  }
-  .sobre2-imagen {
-    width: 90%;
-    height: 100%;
-  }
-  .sobre2-texto {
-    width: 100%;
-  }
-  /*Footer*/
-  .footer-nav {
-    display: block;
-    height: 100%;
-    text-align: center;
-  }
-}
-/*Tablet*/
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-  /*Nav*/
-  .nav {
-    gap: 2px;
-  }
-  .navbar-icon {
-    text-align: left;
-  }
-  /*Main-Index*/
-  .main1 {
-    gap: 50px;
-  }
-  .main2 {
-    gap: 50px;
-    padding: 25px;
-    height: 100%;
-  }
-  .main2-opc {
-    height: 100%;
-  }
-  .main3 {
-    gap: 50px;
-  }
-  .newsletter {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  /*Main-Sobre Antologia*/
-  .sobre1 {
-    gap: 50px;
-  }
-  .sobre2 {
-    flex-direction: column;
-  }
-  .sobre2-imagen {
-    width: 90%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .sobre2-texto {
-    width: 100%;
-  }
-  /*Footer*/
-}
-/*Desktop*/
-@media screen and (min-width: 1024px) and (max-width: 1800px) {
-  /*Nav*/
-  /*Main-Index*/
-  .main1 {
-    gap: 50px;
-  }
-  /*Main-Sobre Antologia*/
-  /*Footer*/
 }
 
 /*# sourceMappingURL=style.css.map */

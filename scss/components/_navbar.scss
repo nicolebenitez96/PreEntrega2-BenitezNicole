@@ -1,0 +1,26 @@
+/*Header*/
+.navbar{
+    padding: 25px;
+}
+.navbar-icon img{
+    width: 50px;
+    height: 40px;
+}
+
+.nav{
+    gap: 75px;
+}
+
+.nav-item{
+    border-radius: 50px;
+}
+
+.nav-item a{
+    color: black;
+}
+
+.nav-item:hover{
+    background-image: linear-gradient(180deg, rgba(97,61,254,0.5) 0%, rgba(251,146,237,0.5) 100%);
+}
+
+/*Header end*/
