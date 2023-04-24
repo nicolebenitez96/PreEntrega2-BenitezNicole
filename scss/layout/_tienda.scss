@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 380px;
+    height: $height-section;
     background-image: $background-gradient;
 }
 
@@ -71,16 +71,21 @@
     justify-content: center;
     padding: 10px;
     margin-left: 10px;
+
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+
+    a{
+        color: black;
+    }
+
+    button{
+        display:none;
+    }
 }
 
-.grilla-tienda-filtros ul{
-    list-style: none;
-    padding-left: 0;
-}
-
-.grilla-tienda-filtros a{
-    color: black;
-}
 
 .tienda-vermas{
     height: 100%;

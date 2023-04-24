@@ -8,17 +8,28 @@
 @import "./components/footer";
 
 //Imports Layout
-@import "./layout/mediaqueries";
 @import "./layout/index";
 @import "./layout/sobre-antologia";
 @import "./layout/tienda";
 @import "./layout/blog";
 @import "./layout/contacto";
 @import "./layout/cuenta";
+@import "./layout/mediaqueries";
 
 body{
     width: 100%;
     background-color: #f7f6f6;
+}
+
+h1{
+    font-size: $h1-font-size;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2{
+    font-size: 25px;
 }
 
 

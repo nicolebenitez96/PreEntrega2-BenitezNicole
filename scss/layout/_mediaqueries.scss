@@ -4,7 +4,6 @@
 @media screen and (min-width: 320px) and (max-width:599px){
 
     /*Nav*/
-
     .container{
         flex-direction: column;
     }
@@ -14,15 +13,22 @@
         gap: 2px;
     }
 
-    /*Main-Index*/
+    //Index
     .main1{
         flex-direction: column;
-        gap: 25px;
-    }
-
-    .main1-imagen{
-        width: 90%;
+        justify-content: center;
         height: 100%;
+        gap: 15px;
+        padding: 25px;
+
+        &-texto{
+           width: 100%;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        } 
     }
 
     .main2{
@@ -30,10 +36,10 @@
         gap: 50px;
         padding: 25px;
         height: 100%;
-    }
 
-    .main2-opc{
-        height: 100%;
+        &-opc{
+            height: 100%;
+        }
     }
 
     .main3{
@@ -50,45 +56,272 @@
         padding: 25px;
         align-items: center;
         justify-content: center;
+
+        &-form{
+            width: 100%;
+
+            p{
+                text-align: justify;
+            }
+        }
+
+        .newsletter{
+            flex-direction: column;
+        }
+
     }
 
-    .main5-form{
-        width: 100%;
-    }
-
-    .main5-form p{
-        text-align: justify;
-    }
-
-    .newsletter{
-        flex-direction: column;
-    }
-
-
-    /*Main-Sobre Antologia*/
+    //Sobre Antologia
 
     .sobre1{
         flex-direction: column;
         gap: 25px;
-    }
 
-    .sobre1-imagen{
-        width: 90%;
-        height: 100%;
+        &-imagen{
+            width: 90%;
+            height: 100%;
+        }
     }
 
     .sobre2{
         flex-direction: column;
         gap: 25px;
-    }
+            
+        &-imagen{
+            width: 90%;
+            height: 100%;
+        }
 
-    .sobre2-imagen{
-        width: 90%;
-        height: 100%;
-    }
-
-    .sobre2-texto{
+        &-texto{
         width:100%;
+        }
+    }
+
+    //Tienda
+    .tienda-seccion1{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        background-image: $background-gradient;
+        padding: 25px;
+        
+        &-body{
+            padding-right: 0;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .tienda-buscador{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    //Botón de filtros
+    .grilla-tienda-filtros{
+        position: relative;
+        display: inline-block;
+        border: none;
+        margin: auto;
+
+        button{
+            display: block;
+            width: 100%;
+            background-color: #f7f6f6;
+            color: black;
+            border-radius: 15px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px black;
+            cursor: pointer;
+
+            &:hover{
+                background-image: $background-gradient;
+            }
+        }
+    }
+
+    .grilla-tienda-filtros:hover .grilla-tienda-lista{
+        display: block;
+    
+    }
+
+    .grilla-tienda-lista{
+            display: none;
+            position: absolute;
+            background-image: $background-gradient;
+            min-width: 160px;
+            z-index: 1;
+
+            a{
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+        }
+    
+    //Grilla tienda
+    .grilla-tienda{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    //Blog
+    .blog1{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+        padding: 25px;
+
+        &-texto{
+           width: 100%;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .blog2{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+        padding: 25px;
+
+        &-texto{
+           width: 100%;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .blog3{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+        padding: 25px;
+
+        &-texto{
+           width: 100%;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .blog4{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+        padding: 25px;
+
+        &-texto{
+           width: 100%;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+
+    //Contacto
+    .contacto1{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+        padding: 25px;
+
+        &-texto{
+           width: 100%;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .contacto2{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+        padding: 25px;
+
+        &-texto{
+           width: 100%;
+        }
+
+        &-mapa{
+            width: 100%;
+            height: auto;
+        }
+        
+        &-form{
+            width: 100%;
+        }
+
+    }
+
+    //Cuenta
+    .cuenta1{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+        padding: 25px;
+
+        &-texto{
+           width: 100%;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }   
+    }
+
+    #form-registro{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+        padding: 25px;
+
+        }
+    
+
+    .form-registro-botones{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        
+    }
+
+    #form-iniciarsesion{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+        padding: 25px;
     }
 
     /*Footer*/

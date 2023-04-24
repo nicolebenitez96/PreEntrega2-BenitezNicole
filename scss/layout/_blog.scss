@@ -1,7 +1,7 @@
 /*Blog main*/
 
 .blog1{
-    height: 380px;
+    height: $height-section;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@
 }
 
 .blog2{
-    height: 380px;
+    height: $height-section;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,7 @@
 }
 
 .blog3{
-    height: 380px;
+    height: $height-section;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@
 }
 
 .blog4{
-    height: 380px;
+    height: $height-section;
     display: flex;
     align-items: center;
     justify-content: center;

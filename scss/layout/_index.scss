@@ -21,7 +21,7 @@
 
 .main2{
     display:flex;
-    height: 380px;
+    height: $height-section;
     background-color: #f7f6f6;
     justify-content: space-evenly;
     align-items: center;
@@ -44,7 +44,7 @@
 
 .main3{
     display: flex;
-    height: 380px;
+    height: $height-section;
     background-image: $background-gradient;
     justify-content: center;
     align-items: center;

@@ -66,140 +66,6 @@
 }
 
 /*Footer end*/
-/*Media queries*/
-/*Mobile*/
-@media screen and (min-width: 320px) and (max-width: 599px) {
-  /*Nav*/
-  .container {
-    flex-direction: column;
-  }
-  .nav {
-    flex-direction: column;
-    gap: 2px;
-  }
-  /*Main-Index*/
-  .main1 {
-    flex-direction: column;
-    gap: 25px;
-  }
-  .main1-imagen {
-    width: 90%;
-    height: 100%;
-  }
-  .main2 {
-    flex-direction: column;
-    gap: 50px;
-    padding: 25px;
-    height: 100%;
-  }
-  .main2-opc {
-    height: 100%;
-  }
-  .main3 {
-    flex-direction: column;
-    gap: 25px;
-    height: 100%;
-    padding: 25px;
-  }
-  .main5 {
-    height: 100%;
-    flex-direction: column;
-    gap: 25px;
-    padding: 25px;
-    align-items: center;
-    justify-content: center;
-  }
-  .main5-form {
-    width: 100%;
-  }
-  .main5-form p {
-    text-align: justify;
-  }
-  .newsletter {
-    flex-direction: column;
-  }
-  /*Main-Sobre Antologia*/
-  .sobre1 {
-    flex-direction: column;
-    gap: 25px;
-  }
-  .sobre1-imagen {
-    width: 90%;
-    height: 100%;
-  }
-  .sobre2 {
-    flex-direction: column;
-    gap: 25px;
-  }
-  .sobre2-imagen {
-    width: 90%;
-    height: 100%;
-  }
-  .sobre2-texto {
-    width: 100%;
-  }
-  /*Footer*/
-  .footer-nav {
-    display: block;
-    height: 100%;
-    text-align: center;
-  }
-}
-/*Tablet*/
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-  /*Nav*/
-  .nav {
-    gap: 2px;
-  }
-  .navbar-icon {
-    text-align: left;
-  }
-  /*Main-Index*/
-  .main1 {
-    gap: 50px;
-  }
-  .main2 {
-    gap: 50px;
-    padding: 25px;
-    height: 100%;
-  }
-  .main2-opc {
-    height: 100%;
-  }
-  .main3 {
-    gap: 50px;
-  }
-  .newsletter {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  /*Main-Sobre Antologia*/
-  .sobre1 {
-    gap: 50px;
-  }
-  .sobre2 {
-    flex-direction: column;
-  }
-  .sobre2-imagen {
-    width: 90%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .sobre2-texto {
-    width: 100%;
-  }
-  /*Footer*/
-}
-/*Desktop*/
-@media screen and (min-width: 1024px) and (max-width: 1800px) {
-  /*Nav*/
-  /*Main-Index*/
-  .main1 {
-    gap: 50px;
-  }
-  /*Main-Sobre Antologia*/
-  /*Footer*/
-}
 /*Index main*/
 .main1 {
   display: flex;
@@ -463,14 +329,15 @@
   padding: 10px;
   margin-left: 10px;
 }
-
 .grilla-tienda-filtros ul {
   list-style: none;
   padding-left: 0;
 }
-
 .grilla-tienda-filtros a {
   color: black;
+}
+.grilla-tienda-filtros button {
+  display: none;
 }
 
 .tienda-vermas {
@@ -820,9 +687,336 @@
 }
 
 /*Cuenta main end*/
+/*Media queries*/
+/*Mobile*/
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  /*Nav*/
+  .container {
+    flex-direction: column;
+  }
+  .nav {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .main1 {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+  }
+  .main1-texto {
+    width: 100%;
+  }
+  .main1 img {
+    width: 100%;
+    height: auto;
+  }
+  .main2 {
+    flex-direction: column;
+    gap: 50px;
+    padding: 25px;
+    height: 100%;
+  }
+  .main2-opc {
+    height: 100%;
+  }
+  .main3 {
+    flex-direction: column;
+    gap: 25px;
+    height: 100%;
+    padding: 25px;
+  }
+  .main5 {
+    height: 100%;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+  .main5-form {
+    width: 100%;
+  }
+  .main5-form p {
+    text-align: justify;
+  }
+  .main5 .newsletter {
+    flex-direction: column;
+  }
+  .sobre1 {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .sobre1-imagen {
+    width: 90%;
+    height: 100%;
+  }
+  .sobre2 {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .sobre2-imagen {
+    width: 90%;
+    height: 100%;
+  }
+  .sobre2-texto {
+    width: 100%;
+  }
+  .tienda-seccion1 {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
+    padding: 25px;
+  }
+  .tienda-seccion1-body {
+    padding-right: 0;
+  }
+  .tienda-seccion1 img {
+    width: 100%;
+    height: auto;
+  }
+  .tienda-buscador {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .grilla-tienda-filtros {
+    position: relative;
+    display: inline-block;
+    border: none;
+    margin: auto;
+  }
+  .grilla-tienda-filtros button {
+    display: block;
+    width: 100%;
+    background-color: #f7f6f6;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px black;
+    cursor: pointer;
+  }
+  .grilla-tienda-filtros button:hover {
+    background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
+  }
+  .grilla-tienda-filtros:hover .grilla-tienda-lista {
+    display: block;
+  }
+  .grilla-tienda-lista {
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
+    min-width: 160px;
+    z-index: 1;
+  }
+  .grilla-tienda-lista a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .grilla-tienda {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog1 {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+  }
+  .blog1-texto {
+    width: 100%;
+  }
+  .blog1 img {
+    width: 100%;
+    height: auto;
+  }
+  .blog2 {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+  }
+  .blog2-texto {
+    width: 100%;
+  }
+  .blog2 img {
+    width: 100%;
+    height: auto;
+  }
+  .blog3 {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+  }
+  .blog3-texto {
+    width: 100%;
+  }
+  .blog3 img {
+    width: 100%;
+    height: auto;
+  }
+  .blog4 {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+  }
+  .blog4-texto {
+    width: 100%;
+  }
+  .blog4 img {
+    width: 100%;
+    height: auto;
+  }
+  .contacto1 {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+  }
+  .contacto1-texto {
+    width: 100%;
+  }
+  .contacto1 img {
+    width: 100%;
+    height: auto;
+  }
+  .contacto2 {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+  }
+  .contacto2-texto {
+    width: 100%;
+  }
+  .contacto2-mapa {
+    width: 100%;
+    height: auto;
+  }
+  .contacto2-form {
+    width: 100%;
+  }
+  .cuenta1 {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+  }
+  .cuenta1-texto {
+    width: 100%;
+  }
+  .cuenta1 img {
+    width: 100%;
+    height: auto;
+  }
+  #form-registro {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+  }
+  .form-registro-botones {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  #form-iniciarsesion {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+  }
+  /*Footer*/
+  .footer-nav {
+    display: block;
+    height: 100%;
+    text-align: center;
+  }
+}
+/*Tablet*/
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  /*Nav*/
+  .nav {
+    gap: 2px;
+  }
+  .navbar-icon {
+    text-align: left;
+  }
+  /*Main-Index*/
+  .main1 {
+    gap: 50px;
+  }
+  .main2 {
+    gap: 50px;
+    padding: 25px;
+    height: 100%;
+  }
+  .main2-opc {
+    height: 100%;
+  }
+  .main3 {
+    gap: 50px;
+  }
+  .newsletter {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /*Main-Sobre Antologia*/
+  .sobre1 {
+    gap: 50px;
+  }
+  .sobre2 {
+    flex-direction: column;
+  }
+  .sobre2-imagen {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sobre2-texto {
+    width: 100%;
+  }
+  /*Footer*/
+}
+/*Desktop*/
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+  /*Nav*/
+  /*Main-Index*/
+  .main1 {
+    gap: 50px;
+  }
+  /*Main-Sobre Antologia*/
+  /*Footer*/
+}
 body {
   width: 100%;
   background-color: #f7f6f6;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
