@@ -74,13 +74,22 @@
     //Sobre Antologia
 
     .sobre1{
-        flex-direction: column;
-        gap: 25px;
 
-        &-imagen{
-            width: 90%;
-            height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+        padding: 25px;
+
+        &-texto{
+           width: 100%;
         }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+
     }
 
     .sobre2{
@@ -101,17 +110,22 @@
     .tienda-seccion1{
         flex-direction: column;
         justify-content: center;
+        text-align: center;
         height: 100%;
-        background-image: $background-gradient;
+        gap: 15px;
         padding: 25px;
-        
-        &-body{
-            padding-right: 0;
+
+        .tienda-seccion1-texto{
+           width: 100%;
         }
 
-        img{
+        .tienda-seccion1-imagen{
             width: 100%;
             height: auto;
+        }
+ 
+        .tienda-seccion1-body{
+            padding-right: 0;
         }
     }
 
@@ -266,17 +280,30 @@
         gap: 15px;
         padding: 25px;
 
-        &-texto{
+        .contacto2-texto{
            width: 100%;
         }
 
-        &-mapa{
+        .contacto2-mapa{
             width: 100%;
             height: auto;
+
+            iframe{
+                width: 90%;
+                text-align: center;
+            }
         }
         
-        &-form{
+        .contacto2-form{
             width: 100%;
+
+            input{
+                width: 90%;
+            }
+    
+            textarea{
+                width: 90%;
+            }
         }
 
     }
