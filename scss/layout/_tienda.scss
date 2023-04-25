@@ -5,19 +5,20 @@
     justify-content: center;
     height: $height-section;
     background-image: $background-gradient;
+
+    &-body{
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    &-imagen{
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        justify-content: flex-end;
+    }
 }
 
-.tienda-seccion1-body{
-    padding-right: 50px;
-    text-align: center;
-}
-
-.tienda-seccion1-imagen{
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
-    justify-content: flex-end;
-}
 
 .grilla-tienda{
     padding-right: 25px;
@@ -29,27 +30,28 @@
     'area0 area1 area2 area3'
     'area0 area4 area5 area6';
     gap: 10px;
+
+    &-prod{
+        padding: 15px;
+
+        img{
+            width: 90%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            margin: auto;
+        }
+
+        &-body{
+            text-align: center;
+
+            p{
+                font-size: 14px;
+            }
+        }
+    }
 }
 
-.grilla-tienda-prod{
-    padding: 15px; 
-}
-
-.grilla-tienda-prod img{
-    width: 90%;
-    height: 250px;
-    object-fit: cover;
-    display: block;
-    margin: auto;
-}
-
-.grilla-tienda-prod-body{
-    text-align: center;
-}
-
-.grilla-tienda-prod-body p{
-    font-size: 14px;
-}
 
 .titulo-producto{
     font-size: 15px;
@@ -93,23 +95,21 @@
     display: flex;
     width: 100%;
     justify-content: center;
+
+    a{
+        border-radius: 15px;
+        border: 1px solid black;
+        color: black;
+        background-color: #f7f6f6;
+        text-align: center;
+        width: 100px;
+        text-decoration: none;
+
+        :hover{
+            background-image: $background-gradient;
+        }
+    }
 }
-
-
-.tienda-vermas a{
-    border-radius: 15px;
-    border: 1px solid black;
-    color: black;
-    background-color: #f7f6f6;
-    text-align: center;
-    width: 100px;
-    text-decoration: none;
-}
-
-.tienda-vermas a:hover{
-    background-image: $background-gradient;
-}
-
 
 /*Asignación de grid area*/
 .a1{

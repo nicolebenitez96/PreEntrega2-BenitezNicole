@@ -6,17 +6,17 @@
     justify-content: center;
     background-image: $background-gradient;
     gap: 50px;
-}
 
-.contacto1-imagen{
-    width: 25%;
-    height: 300px;
-    object-fit: cover;
-}
-
-.contacto1-texto{
-    width: 50%;
-    text-align: center;
+    &-imagen{
+        width: 25%;
+        height: 300px;
+        object-fit: cover;
+    }  
+    
+    &-texto{
+        width: 50%;
+        text-align: center;
+    }
 }
 
 .contacto2{
@@ -24,35 +24,35 @@
     height: 600px;
     justify-content: center;
     align-items: center;
-}
 
-.contacto2-mapa{
-    width: 50%;
-    text-align: center;
-}
+    .contacto2-mapa{
+        width: 50%;
+        text-align: center;
+    }
 
-.contacto2-form{
-    width: 50%;
-    text-align: center;
-}
+    .contacto2-form{
+        width: 50%;
+        text-align: center;
+
+        input{
+            width: 50%;
+        }
+
+        textarea{
+            width: 50%;
+        }
+
+        button{
+            border-radius: 15px;
+            width: 100px;
+            background-color: #f7f6f6;
+        }
+        button:hover{
+                background-image: $background-gradient;
+            }
+        }
+    }
 
 
-.contacto2-form input{
-    width: 50%;
-}
-
-.contacto2-form textarea{
-    width: 50%;
-}
-
-.contacto2-form button{
-    border-radius: 15px;
-    width: 100px;
-    background-color: #f7f6f6
-}
-
-.contacto2-form button:hover{
-    background-image: $background-gradient;
-}
 
 /*Contacto main end*/

@@ -21,7 +21,7 @@
         gap: 15px;
         padding: 25px;
 
-        &-texto{
+        .main1-texto{
            width: 100%;
         }
 
@@ -289,11 +289,11 @@
         gap: 15px;
         padding: 25px;
 
-        &-texto{
+        .cuenta1-texto{
            width: 100%;
         }
 
-        img{
+        .cuenta1-imagen{
             width: 100%;
             height: auto;
         }   
@@ -306,8 +306,36 @@
         gap: 15px;
         padding: 25px;
 
+        h2{
+            text-align: center;
         }
-    
+    }
+
+    .form-registro-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-registro-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        input{
+            width: 100%;
+        }
+    }
+
+    .form-registro-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:0;
+
+        input{
+            width: 100%;
+        }
+    }
 
     .form-registro-botones{
         display: flex;

@@ -7,17 +7,19 @@
     justify-content: center;
     background-image: $background-gradient;
     gap: 50px;
+
+    &-imagen{
+        width: 25%;
+        height: 300px; 
+    }
+
+    &-texto{
+        width: 50%;
+        text-align: center;
+    }
 }
 
-.blog1-imagen{
-    width: 25%;
-    height: 300px;
-}
 
-.blog1-texto{
-    width: 50%;
-    text-align: center;
-}
 
 .blog2{
     height: $height-section;
@@ -26,24 +28,26 @@
     justify-content: center;
     background-color: #f7f6f6;
     gap: 50px;
+
+    &-imagen{
+        width: 30%;
+        height: 300px;
+    }
+
+    &-texto{
+        width: 50%;
+        text-align: center;
+
+        a{
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 20px;
+        }
+    }
 }
 
-.blog2-imagen{
-    width: 30%;
-    height: 300px;
-}
 
-.blog2-texto{
-    width: 50%;
-    text-align: center;
-}
-
-.blog2-texto a{
-    color: black;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 20px;
-}
 
 .blog3{
     height: $height-section;
@@ -52,24 +56,25 @@
     justify-content: center;
     background-image: $background-gradient;
     gap: 50px;
+
+    &-imagen{
+        width: 25;
+        height: 300px;
+    }
+
+    &-texto{
+        width: 50%;
+        text-align: center;
+
+        a{
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 20px;
+        }
+    }
 }
 
-.blog3-imagen{
-    width: 25;
-    height: 300px;
-}
-
-.blog3-texto{
-    width: 50%;
-    text-align: center;
-}
-
-.blog3-texto a{
-    color: black;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 20px;
-}
 
 .blog4{
     height: $height-section;
@@ -78,23 +83,23 @@
     justify-content: center;
     background-color: #f7f6f6;
     gap: 50px;
-}
 
-.blog4-imagen{
-    width: 30%;
-    height: 300px;
-}
+    &-imagen{
+        width: 30%;
+        height: 300px;
+    }
 
-.blog4-texto{
-    width: 50%;
-    text-align: center;
-}
+    &-texto{
+        width: 50%;
+        text-align: center;
 
-.blog4-texto a{
-    color: black;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 20px;
+        a{
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 20px;
+        }
+    }
 }
 
 .blog-vermas{
@@ -102,20 +107,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    a{
+        color: black;
+        text-decoration: none;
+        width: 120px;
+        border-radius: 15px;
+        border: 1px solid black;
+        text-align: center;
+        background-color:#f7f6f6;
+
+        :hover{
+            background-image: $background-gradient;
+        }
+    }
 }
 
-.blog-vermas a{
-    color: black;
-    text-decoration: none;
-    width: 120px;
-    border-radius: 15px;
-    border: 1px solid black;
-    text-align: center;
-    background-color:#f7f6f6;
-}
-
-.blog-vermas a:hover{
-    background-image: $background-gradient;
-}
 
 /*Blog main end*/

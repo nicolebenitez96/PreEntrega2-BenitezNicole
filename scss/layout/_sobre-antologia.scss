@@ -7,19 +7,20 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+
+    &-imagen{
+        width: 300px;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: 15% 100%;
+    }
+
+    &-texto{
+        width: 50%;
+        text-align: center;
+    }
 }
 
-.sobre1-imagen{
-    width: 300px;
-    max-height: 300px;
-    object-fit: cover;
-    object-position: 15% 100%;
-}
-
-.sobre1-texto{
-    width: 50%;
-    text-align: center;
-}
 
 .sobre2{
     height: 100%;
@@ -29,16 +30,16 @@
     justify-content: center;
     gap: 50px;
     padding: 25px;
-}
 
-.sobre2-imagen{
-    width: 25%;
-    max-height: 300px;
-}
+    &-imagen{
+        width: 25%;
+        max-height: 300px;
+    }
 
-.sobre2-texto{
-    width: 50%;
-    text-align: justify;
+    &-texto{
+        width: 50%;
+        text-align: justify;
+    }
 }
 
 .sobre3{

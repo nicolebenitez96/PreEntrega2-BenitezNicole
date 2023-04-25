@@ -6,17 +6,17 @@
     background-image: $background-gradient;
     justify-content: center;
     align-items: center;
-}
 
-.main1-texto{
-    text-align: center;
-    width: 50%;
-}
+    &-texto{
+        text-align: center;
+        width: 50%;
+    }
 
-.main1 img{
-    width: 300px;
-    max-height: 300px;
-    object-fit: cover;
+    img{
+        width: 300px;
+        max-height: 300px;
+        object-fit: cover;
+    }
 }
 
 .main2{
@@ -25,21 +25,21 @@
     background-color: #f7f6f6;
     justify-content: space-evenly;
     align-items: center;
-}
 
-.main2-opc{
-    width: 200px;
-    height: 200px;
-    text-align: center;
-}
+    &-opc{
+        width: 200px;
+        height: 200px;
+        text-align: center;
 
-.main2 img{
-    width: 100px;
-    height: 100px;
-}
+        &-body{
+            text-align: center;
+        }
+    }
 
-.main2-opc-body{
-    text-align: center;
+    img{
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .main3{
@@ -50,10 +50,10 @@
     align-items: center;
     gap: 100px;
     padding: 25px;
-}
 
-.main3-texto{
-    text-align: center;
+    &-texto{
+        text-align: center;
+    }
 }
 
 .main4{
@@ -63,19 +63,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-.main4-boton{
-    color: black;
-    border-radius: 15px;
-    border: 1px solid black;
-    text-decoration: none;
-    text-align: center;
-    width: 130px;
-}
+    &-boton{
+        color: black;
+        border-radius: 15px;
+        border: 1px solid black;
+        text-decoration: none;
+        text-align: center;
+        width: 130px;
 
-.main4-boton:hover{
-    background-image: $background-gradient;
+        :hover{
+            background-image: $background-gradient;
+        }
+    }
 }
 
 .main5{
@@ -85,47 +85,48 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 50px;
+
+    &-boton{
+        font-size: 20px;
+        color: black;
+        border-radius: 15px;
+        background-color: #f7f6f6;
+        width: 125px;
+        text-align: center;
+        text-decoration: none;
+
+        :hover{
+            background-image: $background-gradient;
+            border: 1px solid black;
+        }
+    }
+
+    &-form{
+        margin-left: 0px;
+        width: 50%;
+    }
 }
 
-.main5-boton{
-    font-size: 20px;
-    color: black;
-    border-radius: 15px;
-    background-color: #f7f6f6;
-    width: 125px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.main5-boton:hover{
-    background-image: $background-gradient;
-    border: 1px solid black;
-}
-
-.main5-form{
-    margin-left: 0px;
-    width: 50%;
-}
 
 .newsletter{
     display: flex;
     flex-direction: row;
     gap: 5px;
+
+    &-boton{
+        color:black;
+        border-radius: 15px;
+        background-color: #f7f6f6;
+        text-decoration: none;
+        text-align: center;
+        width: 100px;
+
+        :hover{
+            border: 1px solid black;
+            background-image: $background-gradient;
+        }
+    }
 }
 
-
-.newsletter-boton{
-    color:black;
-    border-radius: 15px;
-    background-color: #f7f6f6;
-    text-decoration: none;
-    text-align: center;
-    width: 100px;
-}
-
-.newsletter-boton:hover{
-    border: 1px solid black;
-    background-image: $background-gradient;
-}
 
 /*Index main end*/
