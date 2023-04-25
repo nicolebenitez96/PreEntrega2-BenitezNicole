@@ -116,12 +116,12 @@
         border: 1px solid black;
         text-align: center;
         background-color:#f7f6f6;
-
-        :hover{
+    }
+        a:hover{
             background-image: $background-gradient;
         }
     }
-}
+
 
 
 /*Blog main end*/

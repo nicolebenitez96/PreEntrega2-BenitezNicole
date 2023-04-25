@@ -134,7 +134,7 @@
   text-align: center;
   width: 130px;
 }
-.main4-boton :hover {
+.main4 .main4-boton:hover {
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
 }
 
@@ -155,7 +155,7 @@
   text-align: center;
   text-decoration: none;
 }
-.main5-boton :hover {
+.main5 .main5-boton:hover {
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
   border: 1px solid black;
 }
@@ -177,7 +177,7 @@
   text-align: center;
   width: 100px;
 }
-.newsletter-boton :hover {
+.newsletter .newsletter-boton:hover {
   border: 1px solid black;
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
 }
@@ -248,11 +248,11 @@
   height: 380px;
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
 }
-.tienda-seccion1-body {
+.tienda-seccion1 .tienda-seccion1-body {
   padding-right: 50px;
   text-align: center;
 }
-.tienda-seccion1-imagen {
+.tienda-seccion1 .tienda-seccion1-imagen {
   width: 400px;
   height: 300px;
   object-fit: cover;
@@ -333,7 +333,7 @@
   width: 100px;
   text-decoration: none;
 }
-.tienda-vermas a :hover {
+.tienda-vermas a:hover {
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
 }
 
@@ -469,7 +469,7 @@
   text-align: center;
   background-color: #f7f6f6;
 }
-.blog-vermas a :hover {
+.blog-vermas a:hover {
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
 }
 

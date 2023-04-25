@@ -6,12 +6,12 @@
     height: $height-section;
     background-image: $background-gradient;
 
-    &-body{
+    .tienda-seccion1-body{
         padding-right: 50px;
         text-align: center;
     }
 
-    &-imagen{
+    .tienda-seccion1-imagen{
         width: 400px;
         height: 300px;
         object-fit: cover;
@@ -104,12 +104,12 @@
         text-align: center;
         width: 100px;
         text-decoration: none;
-
-        :hover{
+    }
+        a:hover{
             background-image: $background-gradient;
         }
     }
-}
+
 
 /*Asignación de grid area*/
 .a1{

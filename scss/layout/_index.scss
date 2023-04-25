@@ -72,11 +72,13 @@
         text-align: center;
         width: 130px;
 
-        :hover{
+    }
+
+        .main4-boton:hover{
             background-image: $background-gradient;
         }
     }
-}
+
 
 .main5{
     height: 200px;
@@ -94,18 +96,21 @@
         width: 125px;
         text-align: center;
         text-decoration: none;
+    }
 
-        :hover{
+        .main5-boton:hover{
             background-image: $background-gradient;
             border: 1px solid black;
         }
-    }
+    
 
     &-form{
         margin-left: 0px;
         width: 50%;
     }
+
 }
+
 
 
 .newsletter{
@@ -120,13 +125,14 @@
         text-decoration: none;
         text-align: center;
         width: 100px;
-
-        :hover{
+    }
+    
+    .newsletter-boton:hover{
             border: 1px solid black;
             background-image: $background-gradient;
         }
     }
-}
+
 
 
 /*Index main end*/
