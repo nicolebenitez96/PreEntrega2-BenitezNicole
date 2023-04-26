@@ -110,6 +110,33 @@
         }
     }
 
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        padding: 25px;
+
+        .review-contenedor{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .review-body{
+            width: 90%;
+        }
+
+        p{
+            font-size: 14px;
+            width: 80%;
+            text-align: justify;     
+        }
+    }
+       
+
     //Tienda
     .tienda-seccion1{
         flex-direction: column;
@@ -389,8 +416,6 @@
         height: 100%;
         text-align: center;
     }
-
-
 }
 
 /*Tablet*/

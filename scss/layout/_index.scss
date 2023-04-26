@@ -26,14 +26,15 @@
     justify-content: space-evenly;
     align-items: center;
 
-    &-opc{
+    .main2-opc{
         width: 200px;
         height: 200px;
         text-align: center;
         transition: 0.5s;
 
-        &-body{
+        .main2-opc-body{
             text-align: center;
+            padding-top: 10px;
         }
     }
 
@@ -41,10 +42,6 @@
         transform: scale(1.05, 1.05);
     }
 
-    img{
-        width: 100px;
-        height: 100px;
-    }
 }
 
 .main3{
