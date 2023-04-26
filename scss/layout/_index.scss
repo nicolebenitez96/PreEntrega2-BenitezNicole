@@ -30,10 +30,15 @@
         width: 200px;
         height: 200px;
         text-align: center;
+        transition: 0.5s;
 
         &-body{
             text-align: center;
         }
+    }
+
+    .main2-opc:hover{
+        transform: scale(1.05, 1.05);
     }
 
     img{
@@ -44,7 +49,7 @@
 
 .main3{
     display: flex;
-    height: $height-section;
+    height: 100%;
     background-image: $background-gradient;
     justify-content: center;
     align-items: center;
@@ -53,6 +58,7 @@
 
     &-texto{
         text-align: center;
+        width: 50%;
     }
 }
 

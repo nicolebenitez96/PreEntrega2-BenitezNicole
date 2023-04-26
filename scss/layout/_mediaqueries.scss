@@ -47,6 +47,10 @@
         gap: 25px;
         height: 100%;
         padding: 25px;
+
+        &-texto{
+            width: 100%;
+        }
     }
 
     .main5{
@@ -393,13 +397,12 @@
 @media screen and (min-width: 600px) and (max-width: 1023px){
 
     /*Nav*/ 
+    .container{
+        flex-direction: column;
+    }
 
     .nav{
         gap: 2px;
-    }
-
-    .navbar-icon{
-        text-align:left;
     }
 
     /*Main-Index*/

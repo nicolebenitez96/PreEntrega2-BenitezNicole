@@ -59,4 +59,69 @@
     align-items: flex-end;
 }
 
+.reviews{
+    height: $height-section;
+    background-image: $background-gradient;
+    text-align: center;
+    
+
+    .reviews-titulo{
+        display:block;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .review-contenedor{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .review-body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: #f7f6f6;
+        width: 18%;
+        padding: 25px;
+        transition: 1s;
+    }
+
+    .review-body:hover{
+        transform: scale(1.1, 1.1);
+        box-shadow: 5px 5px rgba(251,146,237,0.5);
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 14px;
+        width: 80%;
+        text-align: justify;
+        
+    }
+}
+
+// //Asignación Grid area
+// .as0{
+//     grid-area: area0;
+// }
+
+// .as1{
+//     grid-area: area1;
+// }
+
+// .as2{
+//     grid-area: area2;
+// }
+
+// .as3{
+//     grid-area: area3;
+// }
+
+
 /*Sobre-antologia main end*/

@@ -44,6 +44,15 @@
             font-style: italic;
             font-size: 20px;
         }
+
+        .blog2-titulo{
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        
+        .blog2-titulo:hover{
+            text-decoration:underline;
+        }
     }
 }
 
@@ -72,6 +81,15 @@
             font-style: italic;
             font-size: 20px;
         }
+
+        .blog3-titulo{
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        
+        .blog3-titulo:hover{
+            text-decoration:underline;
+        }
     }
 }
 
@@ -98,6 +116,15 @@
             font-weight: bold;
             font-style: italic;
             font-size: 20px;
+        }
+
+        .blog4-titulo{
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        
+        .blog4-titulo:hover{
+            text-decoration:underline;
         }
     }
 }

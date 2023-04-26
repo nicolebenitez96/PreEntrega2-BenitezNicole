@@ -96,9 +96,13 @@
   width: 200px;
   height: 200px;
   text-align: center;
+  transition: 0.5s;
 }
 .main2-opc-body {
   text-align: center;
+}
+.main2 .main2-opc:hover {
+  transform: scale(1.05, 1.05);
 }
 .main2 img {
   width: 100px;
@@ -107,7 +111,7 @@
 
 .main3 {
   display: flex;
-  height: 380px;
+  height: 100%;
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
   justify-content: center;
   align-items: center;
@@ -116,6 +120,7 @@
 }
 .main3-texto {
   text-align: center;
+  width: 50%;
 }
 
 .main4 {
@@ -239,6 +244,45 @@
   align-items: flex-end;
 }
 
+.reviews {
+  height: 380px;
+  background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
+  text-align: center;
+}
+.reviews .reviews-titulo {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+.reviews .review-contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.reviews .review-body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f6f6;
+  width: 18%;
+  padding: 25px;
+  transition: 1s;
+}
+.reviews .review-body:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px rgba(251, 146, 237, 0.5);
+}
+.reviews h3 {
+  font-size: 16px;
+}
+.reviews p {
+  font-size: 14px;
+  width: 80%;
+  text-align: justify;
+}
+
 /*Sobre-antologia main end*/
 /*Tienda main*/
 .tienda-seccion1 {
@@ -270,6 +314,7 @@
 }
 .grilla-tienda-prod {
   padding: 15px;
+  transition: 0.5s;
 }
 .grilla-tienda-prod img {
   width: 90%;
@@ -283,6 +328,9 @@
 }
 .grilla-tienda-prod-body p {
   font-size: 14px;
+}
+.grilla-tienda .grilla-tienda-prod:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .titulo-producto {
@@ -407,6 +455,13 @@
   font-style: italic;
   font-size: 20px;
 }
+.blog2-texto .blog2-titulo {
+  text-decoration: none;
+  transition: 0.5s;
+}
+.blog2-texto .blog2-titulo:hover {
+  text-decoration: underline;
+}
 
 .blog3 {
   height: 380px;
@@ -430,6 +485,13 @@
   font-style: italic;
   font-size: 20px;
 }
+.blog3-texto .blog3-titulo {
+  text-decoration: none;
+  transition: 0.5s;
+}
+.blog3-texto .blog3-titulo:hover {
+  text-decoration: underline;
+}
 
 .blog4 {
   height: 380px;
@@ -452,6 +514,13 @@
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
+}
+.blog4-texto .blog4-titulo {
+  text-decoration: none;
+  transition: 0.5s;
+}
+.blog4-texto .blog4-titulo:hover {
+  text-decoration: underline;
 }
 
 .blog-vermas {
@@ -691,6 +760,9 @@
     gap: 25px;
     height: 100%;
     padding: 25px;
+  }
+  .main3-texto {
+    width: 100%;
   }
   .main5 {
     height: 100%;
@@ -960,11 +1032,11 @@
 /*Tablet*/
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   /*Nav*/
+  .container {
+    flex-direction: column;
+  }
   .nav {
     gap: 2px;
-  }
-  .navbar-icon {
-    text-align: left;
   }
   /*Main-Index*/
   .main1 {
